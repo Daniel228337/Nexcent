@@ -425,7 +425,6 @@ button {
     /* width: 100%; */
 }
 
-
 .marketing-card_modal {
     padding: 16px;
     box-shadow: 0 8px 16px 0 rgba(171, 190, 209, 0.4);
@@ -568,3 +567,23 @@ button {
     color: #d9dbe1;
 }
 
+.footer .footer_mobile {
+    display: none;
+}
+
+.header_mobile-hamburher {
+    display: none;
+}
+
+.header_mobile {
+    display: none;
+    /* background: red; */
+}
+
+.hedear_mobile {
+    display: none;
+}
+
+.info-clients_mobile {
+    display: none;
+}

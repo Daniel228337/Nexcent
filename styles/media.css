@@ -1,0 +1,240 @@
+@media (max-width: 1399px)  {
+    .text-align-center-xxl {
+        text-align: center;
+    }
+
+    .center-xxl {
+        margin: 0 auto;
+    }
+    
+    .col-none-xxl {
+        display: none;
+    }
+
+    .home-greating button {
+        margin-bottom: 100px;
+    }
+
+
+}
+
+@media (max-width: 1199px) {
+    .text-align-center-xl {
+        text-align: center;
+    }
+    
+    .center-xl {
+        margin: 0 auto;
+    }
+    
+    .justify-content-center-xl {
+        justify-content: center;
+    }
+    
+    .col-adaptive {
+        display: none;
+    }
+
+    .header_logo {
+        display: flex;
+    }
+
+    .header_mobile-hamburher {
+        display: block;
+        max-width: 30px;
+        margin-left: 20px;
+    }
+
+    .business-stats .col-xl-6 {
+        padding-top: 60px;
+        padding-left: 15%;
+    }
+
+    .marketing-card_modal {
+        width: 75%;
+        bottom: -25%;
+    }
+
+    .marketing .col-xl-6:last-child .marketing_card{
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 991px) {
+    body {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .business-stats-item_info b {
+        font-size: 30px;
+    }
+
+    .demo h2 {
+        font-size: 40px;
+    }
+
+    button {
+        padding: 12px 30px;
+    }
+
+    .header_mobile-hamburher {
+        max-width: 25px;
+        margin-bottom: 4px;
+    }
+
+    .marketing-card_modal {
+        bottom: -35%;
+    }
+
+    .footer_desktop {
+        display: none;
+    }
+
+    .footer .footer_mobile {
+        display: flex;
+    }
+
+    .col-none-xxl {
+        display: none;
+    }
+
+    .footer_mobile .footer_support, .footer_mobile .footer_right{
+        margin-top: 36px;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-none-md {
+        display: none;
+    }
+
+    .hedear_mobile {
+        display: flex;
+        width: 50px;
+        margin-left: auto;
+        cursor: pointer;
+    }
+
+    .text-align-center-md {
+        text-align: center;
+    }
+
+    .business-stats .col-xl-6 {
+        padding-left: 16px;
+    }
+
+    .marketing-card_modal img {
+        max-width: 368px;
+    }
+
+    .marketing-card_modal  {
+        bottom: -20%;
+        width: 90%;
+    }
+
+    .marketing_card {
+        margin-top: 45px;
+    }
+
+    
+    
+
+    
+
+
+}
+
+@media (max-width: 575px) {
+    body {
+        font-size: 11px;
+    }
+    
+    h1 {
+        font-size: 30px;
+    }
+    
+    h2 {
+        font-size: 25px;
+    }
+    
+    h3 {
+        font-size: 15px;
+    }
+    
+    h4 {
+        margin: 0;
+        font-size: 15px;
+    }
+
+    .marketing-card_modal b {
+        font-size: 15px;
+    }
+
+    .home-greating {
+        padding-top: 13px;
+    }
+
+    .business-stats-item_info b {
+        font-size: 21px;
+    }
+
+    .demo h2 {
+        font-size: 25px;
+    }
+
+    .our-clients_logos img {
+        max-width: 30px;
+    }
+
+    .info-clients_logos img {
+        max-width: 30px;
+    }
+
+    .info-clients_desktop {
+        display: none;
+    }
+
+    .info-clients_mobile {
+        display: block;
+        margin-top: 13px;
+    }
+
+    .info-clients_mobile img {
+        width: 30px;
+    }
+
+    .info-clients-mobile_arrow a {
+        text-align: center;
+    }
+
+    .info-clients-mobile_arrow img {
+        max-width: 20px;
+    }
+
+    .marketing-card_modal {
+
+    }
+
+    .marketing-card_modal {
+        bottom: -50%;
+        padding: 10px;
+    }
+
+    
+}
