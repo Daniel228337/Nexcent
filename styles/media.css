@@ -14,8 +14,6 @@
     .home-greating button {
         margin-bottom: 100px;
     }
-
-
 }
 
 @media (max-width: 1199px) {
@@ -52,12 +50,7 @@
     }
 
     .marketing-card_modal {
-        width: 75%;
-        bottom: -25%;
-    }
-
-    .marketing .col-xl-6:last-child .marketing_card{
-        margin-top: 50px;
+        width: 90%;
     }
 }
 
@@ -96,6 +89,7 @@
 
     .info-clients_mobile {
         display: block;
+        margin-top: 16px;
     }
 
     .info-clients_desktop {
@@ -105,10 +99,6 @@
     .header_mobile-hamburher {
         max-width: 25px;
         margin-bottom: 4px;
-    }
-
-    .marketing-card_modal {
-        bottom: -35%;
     }
 
     .footer_desktop {
@@ -159,6 +149,10 @@
 
     .marketing_card {
         margin-top: 45px;
+    }
+
+    .manage-community-cards_item {
+        margin-top: 16px;
     }
 }
 
@@ -229,15 +223,13 @@
         max-width: 20px;
     }
 
-    .marketing-card_modal {
-
+    .marketing {
+        padding-bottom: 0;
     }
 
     .marketing-card_modal {
-        bottom: -50%;
         padding: 10px;
     }
-
     
 }
 

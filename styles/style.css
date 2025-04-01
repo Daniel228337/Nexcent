@@ -115,7 +115,7 @@ button {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1152px;
   width: 100%;
   margin: 0 auto;
   padding: 0 16px;
@@ -130,9 +130,17 @@ button {
   background: var(--color-silver);
 }
 
+.header_logo {
+  min-width: 154px;
+}
+
 .header_nav {
   display: flex;
   gap: 50px;
+}
+
+.header_nav a {
+  display: inline-block;
 }
 
 .header_login {
@@ -142,6 +150,7 @@ button {
 }
 
 .header_login a {
+  display: inline-block;
   padding: 10px 20px;
   border-radius: 6px;
 }
@@ -154,6 +163,8 @@ button {
   color: var(--color-white);
   background: var(--color-green);
 }
+
+
 
 /* *_______________home_greating_______________* */
 .home-greating {
@@ -277,6 +288,7 @@ button {
 }
 
 .pixelgrade h2 {
+  margin-top: 16px;
   margin-bottom: 16px;
 }
 
@@ -335,6 +347,7 @@ button {
 }
 
 .footer-design h2 {
+  margin-top: 16px;
   margin-bottom: 16px;
 }
 
@@ -386,6 +399,7 @@ button {
 .info-clients_logos {
   display: flex;
   justify-content: space-between;
+  margin-top: 32px;
 }
 
 .info-clients_logos a {
@@ -416,7 +430,8 @@ button {
 }
 
 .marketing_card {
-  position: relative;
+  text-align: center;
+
 }
 
 .marketing-card_img {
@@ -436,11 +451,9 @@ button {
   background: var(--color-silver);
   text-align: center;
   z-index: 10;
-  position: absolute;
-  bottom: -35%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 80%;
+  transform: translate(0%, -56%);
+  width: 317px;
+  margin: 0 auto;
 }
 
 .marketing-card_modal h4 {
@@ -468,6 +481,7 @@ button {
 /* *_______________demo______________* */
 .demo {
   padding: 32px 0;
+  background: var(--color-silver);
 }
 
 .demo h2 {
