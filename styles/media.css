@@ -19,6 +19,7 @@
 }
 
 @media (max-width: 1199px) {
+
     .text-align-center-xl {
         text-align: center;
     }
@@ -93,6 +94,14 @@
         padding: 12px 30px;
     }
 
+    .info-clients_mobile {
+        display: block;
+    }
+
+    .info-clients_desktop {
+        display: none;
+    }
+
     .header_mobile-hamburher {
         max-width: 25px;
         margin-bottom: 4px;
@@ -151,13 +160,6 @@
     .marketing_card {
         margin-top: 45px;
     }
-
-    
-    
-
-    
-
-
 }
 
 @media (max-width: 575px) {
@@ -237,4 +239,10 @@
     }
 
     
+}
+
+@media (max-width: 321px) {
+    .marketing_card  {
+        margin-bottom: 20px;
+    }
 }
