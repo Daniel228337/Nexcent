@@ -34,6 +34,10 @@
         display: none;
     }
 
+    .header .row {
+      margin: 0px
+    }
+
     .header_logo {
         display: flex;
     }
@@ -41,7 +45,6 @@
     .header_mobile-hamburher {
         display: block;
         max-width: 30px;
-        margin-left: 20px;
     }
 
     .business-stats .col-xl-6 {
@@ -51,6 +54,19 @@
 
     .marketing-card_modal {
         width: 90%;
+    }
+
+    .header_nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .header_nav:first-child  {
+        margin-right: 30px;
+    }
+
+    .header_nav:last-child {
+        margin-left: 30px;
     }
 }
 
@@ -74,6 +90,8 @@
     h3 {
         font-size: 20px;
     }
+
+   
 
     .business-stats-item_info b {
         font-size: 30px;

@@ -130,13 +130,18 @@ button {
   background: var(--color-silver);
 }
 
+.header .row {
+  margin: 0 -39px;
+}
+
 .header_logo {
   min-width: 154px;
 }
 
 .header_nav {
   display: flex;
-  gap: 50px;
+  justify-content: space-between;
+  /* gap: 50px; */
 }
 
 .header_nav a {
@@ -144,6 +149,7 @@ button {
 }
 
 .header_login {
+  display: flex;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.42;
@@ -608,5 +614,17 @@ button {
 }
 
 .active {
-  display: block !important;
+  display: flex !important;
+}
+
+.nav_mobile {
+  display: none;
+}
+
+.home-greating .slider {
+  display: none ;
+}
+
+.visible {
+  display: flex !important;
 }

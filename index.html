@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/grid.css">
     <link rel="stylesheet" href="./styles/media.css">
+    <link rel="stylesheet" href="./styles/modal.css">
     <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"> -->
 </head>
 
@@ -19,12 +20,11 @@
                 <div class="col col-2 col-xl-3">
                     <div class="header_logo">
                         <a href="#!"><img src="./img/header_logo.svg" alt=""></a>
-                        <img class="header_mobile-hamburher" src="./img/hamburger-icon.png" alt="">
                     </div>
                 </div>
 
                 <div class="col col-1 col-adaptive"></div>
-                <div id="nav" class="col col-6 col-adaptive ">
+                <div  class="col col-6 col-adaptive ">
                     <nav class="header_nav">
                         <a href="#!">Home</a>
                         <a href="#!">Service</a>
@@ -35,24 +35,101 @@
                     </nav>
                 </div>
 
+                <div id="nav" class="col col-3 col-adaptive nav_mobile">
+                    <nav class="header_nav">
+                        <a href="#!">Home</a>
+                        <a href="#!">Service</a>
+                        
+                    </nav>
+                        <nav class="header_nav">
+                            <a href="#!">Feature</a>
+                            <a href="#!">Product</a>
+                        </nav>
+                        <nav class="header_nav">
+                            <a href="#!">Testimonial</a>
+                            <a href="#!">FAQ</a>
+                        </nav>
+                </div>
+
                 <div class="col col-3 text-align-center col-lg-4">
                     <div class="header_login col-none-md">
-                        <a href="#!">Login</a>
-                        <a href="#!">Sign up</a>
+                        <img class="header_mobile-hamburher" src="./img/hamburger-icon.png" alt="">
+                        <a data-modal="modal-1" class="btn" href="#!">Login</a>
+                        <a data-modal="modal-2" class="btn" href="#!">Sign up</a>
                     </div>
                     <img class="hedear_mobile" src="./img/header_mobile.png" alt="">
                 </div>
             </div>
+
+            <div class="modal" id="modal-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-title">
+                            <p>Модалка 1</p>
+                            <span class="close" data-close>&times;</span>
+                        </div>
+                        <div class="modal-text">Содержимое первой модалки</div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="modal" id="modal-2">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-title">
+                            <p>Модалка 2</p>
+                            <span class="close" data-close>&times;</span>
+                        </div>
+                        <div class="modal-text">Содержимое второй модалки</div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="modal" id="modal-3">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-title">
+                            <p>Модалка 3</p>
+                            <span class="close" data-close>&times;</span>
+                        </div>
+                        <div class="modal-text">Содержимое третьей модалки</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
         </div>
     </header>
 
     <section class="home-greating">
         <div class="container">
-            <div class="row">
+            <div data-slide="0" class="row slider visible">
                 <div class="col col-6 col-lg-12 text-align-center-xxl">
                     <h1>Lessons and insights <span>from 8 years</span></h1>
                     <p>Where to grow your business as a photographer: site or social media?</p>
-                    <button>Register</button>
+                    <button data-modal="modal-3" class="btn">Register</button>
+                </div>
+                <div class="col-1 "></div>
+                <div class="col col-5 col-lg-12 text-align-center-xxl">
+                    <img src="./img/greating_next-level-technology.svg" alt="">
+                </div>
+            </div>
+            <div data-slide="1" class="row slider">
+                <div class="col col-6 col-lg-12 text-align-center-xxl">
+                    <h1>Lessons and insights <span>from 11 years</span></h1>
+                    <p>Where to grow your business as a photographer: site or social media?</p>
+                    <button data-modal="modal-3" class="btn">Register</button>
+                </div>
+                <div class="col-1 "></div>
+                <div class="col col-5 col-lg-12 text-align-center-xxl">
+                    <img src="./img/greating_next-level-technology.svg" alt="">
+                </div>
+            </div>
+            <div data-slide="2" class="row slider">
+                <div class="col col-6 col-lg-12 text-align-center-xxl">
+                    <h1>Lessons and insights <span>from 22 years</span></h1>
+                    <p>Where to grow your business as a photographer: site or social media?</p>
+                    <button data-modal="modal-3" class="btn">Register</button>
                 </div>
                 <div class="col-1 "></div>
                 <div class="col col-5 col-lg-12 text-align-center-xxl">
@@ -63,9 +140,9 @@
             <div class="row">
                 <div class="col col-12">
                     <ul class="home-greating_slider-dots align-items-center">
-                        <li class="dot active"></li>
-                        <li class="dot"></li>
-                        <li class="dot"></li>
+                        <li data-sldie-dot="0" class="dot active"></li>
+                        <li data-sldie-dot="1" class="dot"></li>
+                        <li data-sldie-dot="2" class="dot"></li>
                     </ul>
                 </div>
             </div>
@@ -144,7 +221,7 @@
                 <div class="col col-1 col-none-xxl"></div>
 
                 <div class="col col-7 col-xxl-8 col-md-12 text-align-center-md">
-                    <h2>The unseen of spending three years at Pixelgrade</h2>
+                    <h2>The unseen of spending three <br> years at Pixelgrade</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan
                         quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis
                         tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar,
@@ -159,7 +236,7 @@
         <div class="container">
             <div class="row">
                 <div class="col col-5 col-xl-12 text-align-center-xl">
-                    <h2>Helping a local <span>business reinvent itself</span></h2>
+                    <h2>Helping a local <br> <span>business reinvent itself</span></h2>
                     <p>We reached here with our hard work and dedication</p>
                 </div>
 
@@ -435,4 +512,5 @@
 </body>
 
 <script src="./js.js"></script>
+<script src="./slider.js" ></script>
 </html>
