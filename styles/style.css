@@ -628,3 +628,14 @@ button {
 .visible {
   display: flex !important;
 }
+
+.disabled {
+  opacity: 0.5;
+}
+
+.slider-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
