@@ -9,11 +9,9 @@
     <link rel="stylesheet" href="./styles/grid.css">
     <link rel="stylesheet" href="./styles/media.css">
     <link rel="stylesheet" href="./styles/modal.css">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"> -->
 </head>
 
 <body>
-
     <header class="header">
         <div class="container">
             <div class="row between align-items-center">
@@ -103,9 +101,13 @@
 
     <section class="home-greating">
         <div class="container">
+            <div class="row slider-nav">
+                <button id="prevSlide" class="slider-arrow left">&lt;</button>
+                <button id="nextSlide" class="slider-arrow right">&gt;</button>
+            </div>
             <div data-slide="0" class="row slider visible">
                 <div class="col col-6 col-lg-12 text-align-center-xxl">
-                    <h1>Lessons and insights <span>from 8 years</span></h1>
+                    <h1>Lessons and insights <span>from 0 years</span></h1>
                     <p>Where to grow your business as a photographer: site or social media?</p>
                     <button data-modal="modal-3" class="btn">Register</button>
                 </div>
@@ -116,7 +118,7 @@
             </div>
             <div data-slide="1" class="row slider">
                 <div class="col col-6 col-lg-12 text-align-center-xxl">
-                    <h1>Lessons and insights <span>from 11 years</span></h1>
+                    <h1>Lessons and insights <span>from 1 years</span></h1>
                     <p>Where to grow your business as a photographer: site or social media?</p>
                     <button data-modal="modal-3" class="btn">Register</button>
                 </div>
@@ -127,7 +129,7 @@
             </div>
             <div data-slide="2" class="row slider">
                 <div class="col col-6 col-lg-12 text-align-center-xxl">
-                    <h1>Lessons and insights <span>from 22 years</span></h1>
+                    <h1>Lessons and insights <span>from 2 years</span></h1>
                     <p>Where to grow your business as a photographer: site or social media?</p>
                     <button data-modal="modal-3" class="btn">Register</button>
                 </div>
@@ -140,9 +142,9 @@
             <div class="row">
                 <div class="col col-12">
                     <ul class="home-greating_slider-dots align-items-center">
-                        <li data-sldie-dot="0" class="dot active"></li>
-                        <li data-sldie-dot="1" class="dot"></li>
-                        <li data-sldie-dot="2" class="dot"></li>
+                        <li data-slide-dot="0" class="dot active"></li>
+                        <li data-slide-dot="1" class="dot"></li>
+                        <li data-slide-dot="2" class="dot"></li>
                     </ul>
                 </div>
             </div>
