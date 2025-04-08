@@ -1,0 +1,24 @@
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.manage-community-cards_item {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.5s forwards;
+}
+
+.manage-community .col:nth-child(1) .manage-community-cards_item {
+  animation-delay: 0s;
+}
+
+.manage-community .col:nth-child(3) .manage-community-cards_item {
+  animation-delay: 1s;
+}
+
+.manage-community .col:nth-child(2) .manage-community-cards_item {
+  animation-delay: 0.5s;
+}

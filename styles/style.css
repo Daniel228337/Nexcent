@@ -1,6 +1,5 @@
 @import url('./fonts.css');
 
-
 :root {
   /* *_______________Neutral_______________* */
   --color-black: #263238;
@@ -169,8 +168,6 @@ button {
   color: var(--color-white);
   background: var(--color-green);
 }
-
-
 
 /* *_______________home_greating_______________* */
 .home-greating {
@@ -437,7 +434,6 @@ button {
 
 .marketing_card {
   text-align: center;
-
 }
 
 .marketing-card_img {
@@ -622,7 +618,7 @@ button {
 }
 
 .home-greating .slider {
-  display: none ;
+  display: none;
 }
 
 .visible {
@@ -636,6 +632,57 @@ button {
 .slider-nav {
   display: flex;
   justify-content: space-between;
-  align-items: center
+  align-items: center;
 }
+
+.anime {
+  opacity: 0;
+  transition: all 0.6s ease-out;
+}
+
+.anime-visible {
+  opacity: 1;
+  transform: translate(0, 0) !important;
+}
+
+.anime-from-top {
+  transform: translateY(-30px);
+}
+
+
+
+
+.anime-2 {
+  opacity: 0;
+  transition: all 0.6s ease-out;
+}
+
+.anime-visible-2 {
+  opacity: 1;
+  transform: translate(0, 0) !important;
+}
+
+.anime-from-left {
+  transform: translateX(-30px);
+}
+
+
+
+
+.anime-3 {
+  opacity: 0;
+  transition: all 0.6s ease-out;
+}
+
+.anime-visible-3 {
+  opacity: 1;
+  transform: translate(0, 0) !important;
+}
+
+.anime-from-right {
+  transform: translateX(30px);
+}
+
+
+
 

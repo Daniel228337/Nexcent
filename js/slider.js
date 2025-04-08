@@ -6,7 +6,7 @@ let currentSlide = 0;
 
 dots.forEach((element) => {
   element.addEventListener('click', () => {
-    const dotId = (element.getAttribute('data-slide-dot'));
+    const dotId = parseInt(element.getAttribute('data-slide-dot'));
     showSlide(dotId);
     dotsViseble(dotId);
   });
